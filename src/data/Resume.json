@@ -1,0 +1,25 @@
+[
+    {
+      "degree": "Masters of Control Engineering (MSc)",
+      "school": "Adama Science and Technology University",
+      "year": "2021 - 2023",
+      "gpa": "3.82 / 4.0",
+      "image": "/assets/Resume/Msc.pdf"
+    },
+    {
+      "degree": "Bachelor of Electrical Engineering (BSc)",
+      "school": "Adama Science and Technology University",
+      "year": "2016 - 2021",
+      "gpa": "3.7 / 4.0",
+      "image": "/assets/Resume/DegreeCertificate.pdf"
+      
+    },
+    {
+      "degree": "BA in Marketing Management",
+      "school": "Unity University",
+      "year": "2018 - 2023",
+      "gpa": "",
+    "image": "/assets/Resume/DegreeCertificate.pdf"
+    }
+  ]
+  

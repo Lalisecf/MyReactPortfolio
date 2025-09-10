@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "Awash Bank",
+    "startDate": "25/05/2022",
+    "endDate": "Present",
+    "experiences": [
+      "Introduced effective and impactful solutions in web development.",
+      "Established an interactive and dynamic web system to minimize payment collection time.",
+      "Developed and managed APIs to facilitate secure and efficient communication between software systems.",
+      "Enhanced operational efficiency and data accuracy through optimized software solutions."
+    ],
+    "imageSrc": "awashbank.png"
+  },
+  {
+    "role": "Smart Meter Installation Engineer",
+    "organisation": "Ethiopian Electric Utility",
+    "startDate": "10/01/2022",
+    "endDate": "26/08/2022",
+    "experiences": [
+      "Integrated smart meters with existing infrastructure and communication systems.",
+      "Installed and calibrated smart meters to ensure accurate electricity measurements.",
+      "Ensured all installations complied with company standards and regulations."
+    ],
+    "imageSrc": "utility.jpg"
+  },
+  {
+    "role": "Assistant Lecturer",
+    "organisation": "Adama Science and Technology University",
+    "startDate": "09/2021",
+    "endDate": "2023",
+    "experiences": [
+      "Delivered lectures, tutorials, and practical sessions for undergraduate courses in my field of expertise.",
+      "Engaged in academic research, published findings, and contributed to the advancement of knowledge in my discipline."
+    ],
+    "imageSrc": "astu.png"
+  }
+]

@@ -1,0 +1,36 @@
+[
+   
+        {
+          "title": "Virtual Assistance Certificate",
+          "organization": "ALX",
+          "year": "2025",
+          "image": "/assets/certificates/virtual-assistant.png"
+        },
+        {
+            "title": "Managing data Analytic with Power BI",
+            "organization": "ALX",
+            "year": "March 2023",
+            "image": "/assets/Resume/DataAnalyst.pdf"
+          },
+        {
+          "title": "Programming Fundamental Certificate",
+          "organization": "Udemy",
+          "year": "2025",
+            "image": "/assets/Resume/udacity.pdf"
+        },
+ 
+      
+    {
+      "title": "Academic Excellence Award",
+      "organization": "Adama Science and Technology University",
+      "image": "/assets/certificates/fullstack.png",
+      "year": "2021"
+    },
+    {
+      "title": "Best Girl Scorer Award",
+      "organization": "Adama Science and Technology University",
+      "image": "/assets/certificates/fullstack.png",
+      "year": "2020"
+    }
+  ]
+  

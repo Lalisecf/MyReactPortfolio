@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Rent Amortization and Follow-Up System",
+    "imageSrc": "rental.png",
+    "description": "A web application to manage rent amortization schedules and follow-up processes, automating key workflows for efficiency and accuracy.",
+    "skills": ["PHP", "CodeIgniter", "MySQL", "HTML", "CSS"],
+    "demo": "https://rafs.awashbank.com/",
+    "source": "https://10.10.13.101/systemcustomization-and-reporting/rental-management-v2"
+  },
+  {
+    "title": "WSO2 API Integration & Awash Birr Pro Mobile App",
+    "imageSrc": "awashbirrpro.jpg",
+    "description": "Integrated external APIs using WSO2 API Manager and developed a mobile banking app for Awash Birr Pro to access banking services and transaction histories.",
+    "skills": ["WSO2", "Java", "Spring Boot", "C#", ".NET"],
+    "demo": "https://play.google.com/store/apps/details?id=com.sc.awashpay&hl=en&pli=1",
+    "source": "https://10.10.13.101/lalisefu/flyzagolplugin"
+  },
+  {
+    "title": "Daily Exchange Rate System",
+    "imageSrc": "Xchange.png",
+    "description": "A Laravel PHP-based system to manage daily forex rates, providing real-time updates, historical access, and role-based validations for accuracy.",
+    "skills": ["PHP", "Laravel", "MySQL", "HTML", "CSS", "Blade"],
+    "demo": "https://der.awashbank.com/",
+    "source": "https://10.10.13.101/daily-exchange-rate-setup/exchange-rate-management-system"
+  },
+  {
+    "title": "Vendor Management System",
+    "imageSrc": "vendor.png",
+    "description": "A dynamic system using Spring Boot and AngularJS to manage vendors, automate approvals, track performance, and integrate payments for operational efficiency.",
+    "skills": ["Spring Boot", "AngularJS", "REST API", "MySQL"],
+    "demo": "http://vmsf.awashbank.com:8081/vms/home",
+    "source": "https://10.10.13.101/DemekeA/Vendor"
+  },
+  {
+    "title": "Material Management System",
+    "imageSrc": "material.png",
+    "description": "ASP.NET MVC-based system to manage material requisitions, approvals, inventory, and payment workflows with dynamic reporting features.",
+    "skills": ["C#", "ASP.NET MVC", "SQL Server", "Razor", "ReactJS", "HTML", "CSS"],
+    "demo": "https://mms.awashbank.com/Login/Login",
+    "source": "https://10.10.13.101/ayanaas/new-mms"
+  },
+  {
+    "title": "Driver Management System",
+    "imageSrc": "driver.png",
+    "description": "A responsive React app with Material React Table (MRT) for managing driver data. Features include sorting, a config-driven filter panel, CSV/Excel/PDF/JSON exports, i18n support, and seamless integration with a Node.js API or mock data.",
+    "skills": ["ReactJS", "Material React Table", "Node.js", "MySQL", "REST API", "i18n"],
+    "demo": "https://lalisecf.github.io/DMS/",
+    "source": "https://github.com/Lalisecf/DMS"
+  },
+  
+  {
+    "title": "Personal Portfolio Website",
+    "imageSrc": "projects/portfolio.png",
+    "description": "A fully responsive portfolio website showcasing my projects, skills, and work experience. Designed in Figma and implemented with ReactJS and Vue for interactive UI components.",
+    "skills": ["ReactJS", "Vue", "Figma", "HTML", "CSS", "JavaScript"],
+    "demo": "https://www.example.com/portfolio",
+    "source": "https://www.github.com/lalisefufi/portfolio"
+  }
+
+]

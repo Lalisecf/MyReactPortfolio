@@ -1,0 +1,78 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  
+  {
+    "title": "Angular",
+    "imageSrc": "angularjs.png"
+  },
+
+  {
+    "title": "Figma",
+    "imageSrc": "figma.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "node.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "php.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "java.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "c-sharp.png"
+  },
+  {
+    "title": "WSO2 / API Gateway",
+    "imageSrc": "Integration.png"
+  },
+  
+  {
+    "title": "GraphQL",
+    "imageSrc": "graphql.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "mongodb.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "mysql.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "sql.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "docker.png"
+  },
+  {
+    "title": "cloud hosting(AWS,Azure)",
+    "imageSrc": "cloud.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "gitlab.png"
+  },
+  {
+    "title": "NGINX / Apache",
+    "imageSrc": "nginx.png"
+  }
+]
+
