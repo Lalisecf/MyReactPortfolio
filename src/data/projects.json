@@ -53,7 +53,7 @@
     "imageSrc": "Porto.png",
     "description": "A fully responsive portfolio website showcasing my projects, skills, and work experience. Designed in Figma and implemented with ReactJS and Vue for interactive UI components.",
     "skills": ["ReactJS", "Vue", "Figma", "HTML", "CSS", "JavaScript"],
-    "demo": "https://www.example.com/portfolio",
+    "demo": "https://fancy-horse-b8f24c.netlify.app/",
     "source": "https://github.com/Lalisecf/MyReactPortfolio"
   }
 
