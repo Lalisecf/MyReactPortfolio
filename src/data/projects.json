@@ -50,11 +50,11 @@
   
   {
     "title": "Personal Portfolio Website",
-    "imageSrc": "projects/portfolio.png",
+    "imageSrc": "Porto.png",
     "description": "A fully responsive portfolio website showcasing my projects, skills, and work experience. Designed in Figma and implemented with ReactJS and Vue for interactive UI components.",
     "skills": ["ReactJS", "Vue", "Figma", "HTML", "CSS", "JavaScript"],
     "demo": "https://www.example.com/portfolio",
-    "source": "https://www.github.com/lalisefufi/portfolio"
+    "source": "https://github.com/Lalisecf/MyReactPortfolio"
   }
 
 ]

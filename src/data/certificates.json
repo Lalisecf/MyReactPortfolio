@@ -4,7 +4,7 @@
           "title": "Virtual Assistance Certificate",
           "organization": "ALX",
           "year": "2025",
-          "image": "/assets/certificates/virtual-assistant.png"
+           "image": "/assets/Resume/Alx.pdf"
         },
         {
             "title": "Managing data Analytic with Power BI",
@@ -23,14 +23,8 @@
     {
       "title": "Academic Excellence Award",
       "organization": "Adama Science and Technology University",
-      "image": "/assets/certificates/fullstack.png",
-      "year": "2021"
-    },
-    {
-      "title": "Best Girl Scorer Award",
-      "organization": "Adama Science and Technology University",
-      "image": "/assets/certificates/fullstack.png",
-      "year": "2020"
+      "year": "2021",
+      "image": "/assets/Resume/award Certificate pc.pdf"
     }
   ]
   

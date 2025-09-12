@@ -8,33 +8,49 @@ export const Resume = () => {
   const [activeCert, setActiveCert] = useState(null);
   const [pdfModal, setPdfModal] = useState(null);
 
-  const toggleEdu = (index) => setActiveEdu(activeEdu === index ? null : index);
-  const toggleCert = (index) => setActiveCert(activeCert === index ? null : index);
+  const toggleEdu = (index, item) => {
+    if (item.image && item.image.toLowerCase().endsWith(".pdf")) {
+     
+      setPdfModal(item.image);
+    } else {
+      setActiveEdu(activeEdu === index ? null : index);
+    }
+  };
 
-  const openPdfModal = (pdfUrl) => setPdfModal(pdfUrl);
+  const toggleCert = (index, item) => {
+    if (item.image && item.image.toLowerCase().endsWith(".pdf")) {
+      setPdfModal(item.image);
+    } else {
+      setActiveCert(activeCert === index ? null : index);
+    }
+  };
+
   const closePdfModal = () => setPdfModal(null);
 
   const renderAttachment = (item) => {
     if (!item.image) return null;
 
-    if (item.image.toLowerCase().endsWith(".pdf")) {
+    if (!item.image.toLowerCase().endsWith(".pdf")) {
       return (
         <div className={styles.certImageContainer}>
-          <button onClick={() => openPdfModal(item.image)}>View PDF</button>
+          <img
+            src={item.image}
+            alt={item.title || item.degree}
+            className={styles.certImage}
+          />
         </div>
       );
     }
 
-    return (
-      <div className={styles.certImageContainer}>
-        <img src={item.image} alt={item.title || item.degree} className={styles.certImage} />
-      </div>
-    );
+    return null; 
   };
 
   return (
     <>
-      <section className={`${styles.container} ${pdfModal ? styles.blurBackground : ""}`} id="Resume">
+      <section
+        className={`${styles.container} ${pdfModal ? styles.blurBackground : ""}`}
+        id="Resume"
+      >
         <h2 className={styles.title}>Education & Certificates</h2>
         <div className={styles.columns}>
           {/* Education Column */}
@@ -45,7 +61,7 @@ export const Resume = () => {
                 <li
                   key={index}
                   className={`${styles.item} ${activeEdu === index ? styles.active : ""}`}
-                  onClick={() => toggleEdu(index)}
+                  onClick={() => toggleEdu(index, item)}
                 >
                   <div className={styles.degree}>{item.degree}</div>
                   <div className={styles.school}>{item.school}</div>
@@ -65,7 +81,7 @@ export const Resume = () => {
                 <li
                   key={index}
                   className={`${styles.item} ${activeCert === index ? styles.active : ""}`}
-                  onClick={() => toggleCert(index)}
+                  onClick={() => toggleCert(index, item)}
                 >
                   <div className={styles.degree}>{item.title}</div>
                   <div className={styles.school}>{item.organization}</div>
@@ -81,7 +97,10 @@ export const Resume = () => {
       {/* PDF Modal */}
       {pdfModal && (
         <div className={styles.pdfModal} onClick={closePdfModal}>
-          <div className={styles.pdfModalContent} onClick={(e) => e.stopPropagation()}>
+          <div
+            className={styles.pdfModalContent}
+            onClick={(e) => e.stopPropagation()}
+          >
             <button className={styles.closeBtn} onClick={closePdfModal}>
               &times;
             </button>

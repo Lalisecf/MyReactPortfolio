@@ -7,6 +7,7 @@ import wso2ApiImg from "../../assets/projects/awashbirrpro.jpg";
 import exchangeRateImg from "../../assets/projects/Xchange.png";
 import vendorManagementImg from "../../assets/projects/vendor.png";
 import materialManagementImg from "../../assets/projects/material.png";
+import PortoImg from "../../assets/projects/Porto.png";
 import driverImg from "../../assets/projects/driver.png";
 
 // Map image filenames to imported modules
@@ -16,6 +17,7 @@ const projectImages = {
   "Xchange.png": exchangeRateImg,
   "vendor.png": vendorManagementImg,
   "material.png": materialManagementImg,
+  "Porto.png": PortoImg,
   "driver.png": driverImg,
 };
 

@@ -4,6 +4,8 @@ import styles from "./Contact.module.css";
 import emailIcon from "../../assets/contact/emailIcon.png";
 import linkedinIcon from "../../assets/contact/linkedinIcon.png";
 import githubIcon from "../../assets/contact/githubIcon.png";
+import instagramIcon from "../../assets/contact/ig.png";
+import facebookIcon from "../../assets/contact/fb.png";
 
 export const Contact = () => {
   return (
@@ -24,6 +26,14 @@ export const Contact = () => {
         <li className={styles.link}>
           <img src={githubIcon} alt="Github icon" />
           <a href="https://github.com/Lalisecf">github.com/Lalisecf</a>
+        </li>
+        <li className={styles.link}>
+          <img src={instagramIcon} alt="instagram icon" />
+          <a href="https://www.instagram.com/lalise_cf?igsh=MWVzeTFqbmRlZTQ0Ng==/">instagram.com/Lalisecf</a>
+        </li>
+        <li className={styles.link}>
+          <img src={facebookIcon} alt="Fb icon" />
+          <a href="https://www.facebook.com/lalise.fufi.2025/">facebook.com/Lalisecf</a>
         </li>
       </ul>
     </footer>
