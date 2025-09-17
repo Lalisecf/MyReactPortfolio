@@ -9,7 +9,7 @@
   transition: filter 0.3s ease;
 }
 
-/* Blur background when modal is open */
+
 .blurBackground {
   filter: blur(5px);
   pointer-events: none;
@@ -26,7 +26,7 @@
   margin-bottom: 40px;
 }
 
-/* Side-by-side layout for Education & Certificates */
+
 .columns {
   display: flex;
   justify-content: space-evenly;
@@ -41,7 +41,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Different subtle background gradients for each column */
+
 .column.education {
   background: linear-gradient(135deg, rgba(64, 53, 122, 0.85), rgba(99, 72, 172, 0.85));
 }
@@ -50,7 +50,7 @@
   background: linear-gradient(135deg, rgba(123, 104, 238, 0.85), rgba(156, 136, 255, 0.85));
 }
 
-/* Hover lift effect */
+
 .column:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -64,7 +64,7 @@
   text-align: center;
 }
 
-/* Timeline items */
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -114,7 +114,7 @@
   margin-top: 5px;
 }
 
-/* Certificate images */
+
 .certImageContainer {
   margin-top: 15px;
   text-align: center;
@@ -132,14 +132,12 @@
   transform: scale(1.05);
 }
 
-/* Blur background when modal is open */
 .blurBackground {
     filter: blur(5px);
     pointer-events: none;
     user-select: none;
   }
-  
-  /* PDF Modal */
+
   .pdfModal {
     position: fixed;
     top: 0;
@@ -178,7 +176,7 @@
     color: #000;
   }
   
-  /* Animations */
+
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -189,7 +187,7 @@
     to { transform: translateY(0); opacity: 1; }
   }
   
-/* Responsive styles */
+
 @media screen and (max-width: 830px) {
   .columns {
     flex-direction: column;
