@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Resume.module.css";
-import education from "../../data/resume.json";
+import education from "../../data/Resume.json";
 import certificates from "../../data/certificates.json";
 
 export const Resume = () => {
