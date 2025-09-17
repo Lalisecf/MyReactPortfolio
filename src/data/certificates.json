@@ -3,7 +3,7 @@
         {
           "title": "Virtual Assistance Certificate",
           "organization": "ALX",
-          "year": "2025",
+          "year": "2022",
            "image": "/assets/Resume/Alx.pdf"
         },
         {
@@ -18,13 +18,19 @@
           "year": "2025",
             "image": "/assets/Resume/udacity.pdf"
         },
+        {
+          "title": "Machine learning and Data Science",
+          "organization": "Adama Science and Technology University",
+          "year": "2022",
+            "image": "/assets/Resume/Machine learning training.pdf"
+        },
  
       
     {
       "title": "Academic Excellence Award",
       "organization": "Adama Science and Technology University",
-      "year": "2021",
       "image": "/assets/Resume/award Certificate pc.pdf"
     }
+    
   ]
   
